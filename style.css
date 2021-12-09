@@ -800,10 +800,31 @@ ul.top_icon li a {
      cursor: pointer;
 }
 
-.header-search form .search-btn:hover {
+.header-search form .search-btn:hover{
      background: #111111;
 }
-
+#seek{
+     display:block;
+}
+          .search{
+               margin:-30px 0px 15px 4px;
+               display: none;
+          }
+          .search img{
+               height:40px;
+               width:50px;
+               margin:-4px 0px 0px -58px;
+               border-radius:8px;
+          }
+          .search input{
+               min-width:25%; 
+               width:75%;
+               height:50px;
+               padding:25px auto;
+               border:solid 4px red;
+               border-radius:10px;
+               font-size:20px;
+               }
 .cart-box {
      float: right;
      margin-left: 10px;
@@ -1860,6 +1881,7 @@ border-radius: 50px;
 
 .margin {
      margin-bottom: 30px;
+     margin-top: 30px;
 }
 .brand-bg .brand_box:hover {
      background:lightgray;

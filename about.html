@@ -69,7 +69,11 @@
                                         <li><a href="special.html">Specials</a></li>
                                         <li><a href="contact.html">Contact Us</a></li>
                                         <li class="last">
-                                            <a href="#"><img src="images/search_icon.png" alt="icon" /></a>
+                                            <a href="#" onclick="(get())"><img id="seek" src="images/search_icon.png" alt="icon" /></a>
+                                            <div class="search">
+                                                <input type="text" placeholder="search">
+                                            <img src="images/search.png" alt="search" />
+                                            </div>
                                         </li>
                                     </ul>
                                 </nav>
@@ -207,6 +211,15 @@
                 $(this).removeClass('transition');
             });
         });
+    </script>
+      <script type="text/javascript">
+        var seek = document.getElementById("seek");
+        var search = document.querySelector(".search");
+        function get(){
+         seek.style.display = "none";
+         search.style.display = "block";
+        }
+
     </script>
 </body>
 
